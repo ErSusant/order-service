@@ -4,9 +4,11 @@ import com.ebook.management.orderservice.domain.OrderStatus;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
+import lombok.Builder;
+import lombok.Data;
+
 import java.math.BigDecimal;
 import java.util.List;
-
 public class OrderDto {
   private Long id;
 

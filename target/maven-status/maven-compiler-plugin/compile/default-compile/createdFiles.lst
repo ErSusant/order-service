@@ -3,14 +3,14 @@ com\ebook\management\orderservice\exception\ResourceNotFoundException.class
 com\ebook\management\orderservice\repository\OrderRepository.class
 com\ebook\management\orderservice\dto\PaymentRequestDto.class
 com\ebook\management\orderservice\domain\Order.class
-com\ebook\management\orderservice\repository\OrderItemRepository.class
 com\ebook\management\orderservice\client\PaymentClient.class
 com\ebook\management\orderservice\domain\OrderStatus.class
 com\ebook\management\orderservice\dto\OrderItemDto.class
 com\ebook\management\orderservice\dto\PaymentResponseDto.class
 com\ebook\management\orderservice\security\JwtAuthenticationFilter.class
+com\ebook\management\orderservice\OrderServiceApplication.class
+com\ebook\management\orderservice\security\SecurityConfig.class
+com\ebook\management\orderservice\repository\OrderItemRepository.class
 com\ebook\management\orderservice\security\JwtTokenProvider.class
 com\ebook\management\orderservice\dto\OrderDto.class
 com\ebook\management\orderservice\service\OrderService.class
-com\ebook\management\orderservice\OrderServiceApplication.class
-com\ebook\management\orderservice\security\SecurityConfig.class

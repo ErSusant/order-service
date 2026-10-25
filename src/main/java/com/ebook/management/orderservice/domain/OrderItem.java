@@ -1,11 +1,18 @@
 package com.ebook.management.orderservice.domain;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+
 import java.math.BigDecimal;
 import java.time.Instant;
 
 @Entity
 @Table(name = "order_items")
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class OrderItem {
 
   @Id
